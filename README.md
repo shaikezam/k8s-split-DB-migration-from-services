@@ -2,6 +2,7 @@
 
 Build `JAR` for the application for version `1.0.0`
 * `mvn clean install -DskipTests`
+
 Build `Image` for the application & for migration for version `1.0.0`
 * `docker build -t app:1.0.0 .`
 * `docker build -t app-migration:1.0.0 -f MigrationDockerfile .`
@@ -10,6 +11,7 @@ Modify the script `db/migration/V2__insert_new_user.sql_` and remove the `_` in 
 
 Build `JAR` for the application for version `1.0.1`
 * `mvn clean install -DskipTests`
+
 Build `Image` for the application & for migration for version `1.0.1`
 * `docker build -t app:1.0.1 .`
 * `docker build -t app-migration:1.0.1 -f MigrationDockerfile .`
