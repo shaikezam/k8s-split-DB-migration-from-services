@@ -20,7 +20,7 @@ Deploy all K8S resources `kubectl apply -f app.yml`
 
 Application accessible via `http://localhost:5555/users` and verify only 1 user is retrieved.
 
-modify `app.yml` and update `app` & `app-migration` to version 1.0.0 and deploy all K8S resources `kubectl apply -f app.yml`
+modify `app.yml` and update `app` & `app-migration` to version 1.0.1 and deploy all K8S resources `kubectl apply -f app.yml`
 
 Application accessible via `http://localhost:5555/users` and verify 2 users are retrieved.
 
