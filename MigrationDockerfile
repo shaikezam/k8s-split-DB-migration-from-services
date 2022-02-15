@@ -1,5 +1,4 @@
 FROM flyway/flyway:8-alpine
-#RUN apk add --no-cache openjdk11
 RUN ["rm", "-fr", "/flyway/conf"]
 RUN ["rm", "-fr", "/flyway/sql"]
 COPY flyway.conf /flyway/conf/

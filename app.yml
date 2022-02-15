@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: app:1.0.1
+          image: app:1.0.0
           ports:
             - containerPort: 5555
 ---
@@ -90,4 +90,4 @@ spec:
       restartPolicy: Never
       containers:
         - name: app-migrations
-          image: "app-migration:1.0.1"
+          image: "app-migration:1.0.0"
