@@ -1,5 +1,3 @@
-#### Build JAR ####
-
 Build `JAR` for the application for version `1.0.0`
 * `mvn clean install -DskipTests`
 
